@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perimeter Area calculator</title>
+    </head>
+
+    <body>
+
+        <h1>Calculate area and perimeter using my calculator</h1>
+
+        <script>
+            var choice = prompt("welcome to Area Calculator. \n Please Enter you choice. \n1.Area of Rectangle. \n2.Perimeter of Rectangle")
+            if (choice =="1"){
+                var l = prompt("Enter the lenght")
+                var b = prompt("Enter the breadth")
+                var result = Number(l) *Number(b)
+                alert("The area is " + result)
+            }
+            if (choice =="2"){
+                var l = prompt("Enter the lenght")
+                var h =  prompt("Enter the height")
+                var result = Number(l) * 2 +Number(h) * 2
+                alert("The perimeter is " + result)
+            }
+        </script>
+    </body>
+</html>
